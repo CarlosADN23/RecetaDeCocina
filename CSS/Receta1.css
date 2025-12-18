@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("../Fotos/food-pattern-minimalist-background-illustration-vector-1071233790.jpg") repeat; 
+    background-size: 200px;
+}
+
+/* Botón VOLVER */
+.btn-volver {
+    margin: 8px 0 10px 5px;
+    padding: 3px 14px;
+    background-color: #808080;
+    color: #fff;
+    border: 1px solid #404040;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+/* Cabecera principal */
+.header {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    border: 8px solid #606060;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 14px 10px;
+    box-sizing: border-box;
+}
+
+.header h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3c3c3c;
+}
+
+/* Tarjeta central */
+.card {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    background-color: #ffffff;
+    border: 8px solid #606060;
+    box-shadow: 4px 6px 8px rgba(0,0,0,0.3);
+    padding: 18px 26px 26px 26px;
+    box-sizing: border-box;
+}
+
+.card h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+}
+
+/* Contenido con tabla + foto */
+.card-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    margin-bottom: 16px;
+}
+
+/* Tabla ingredientes */
+.ingredientes {
+    border-collapse: collapse;
+    font-size: 13px;
+    min-width: 260px;
+}
+
+.ingredientes th,
+.ingredientes td {
+    border: 1px solid #000;
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.ingredientes thead th {
+    background-color: #e6e6e6;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Foto del plato */
+.foto-plato {
+    display: block;
+    width: 280px;
+    height: auto;
+}
+
+/* Lista elaboración */
+.elaboracion {
+    font-size: 13px;
+    margin: 6px 0 0 18px;
+    padding: 0 20px 0 5px;
+}
+
+.elaboracion li {
+    margin-bottom: 4px;
+}

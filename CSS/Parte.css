@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+   background: url('../Fotos/healthy-food-background-yqfunsnmn5g46ys5-2717757558.jpg') repeat;
+
+    background-size: 200px;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+.header, .footer {
+    border: 8px solid #606060;
+    background: white;
+    margin: 16px 0;
+    padding: 10px 0;
+    border-radius: 4px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #3c3c3c;
+}
+.categories {
+    text-align: center;
+    margin: 20px 0 28px 0;
+}
+.categories button {
+    background: #606060;
+    color: white;
+    border: none;
+    padding: 8px 24px;
+    margin: 0 6px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.categories button:hover {
+    background: #868686;
+}
+.card-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+}
+.card {
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 430px;
+    box-shadow: 4px 6px 8px #8b8b8b70;
+    border-radius: 6px;
+    padding: 20px 24px;
+}
+.card-info {
+    flex: 1 1 0;
+}
+.card-title {
+    font-weight: bold;
+    font-size: 1.12rem;
+    margin-bottom: 2px;
+}
+.card-desc {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+.card-img {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 26px;
+    border: 4px solid #fff;
+    box-shadow: 0 2px 8px #0001;
+}
+.card a.btn-ver-receta {
+    background: #606060;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    padding: 7px 12px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.card a.btn-ver-receta:hover {
+    background: #868686;
+}
+
+@media (max-width: 520px) {
+    .card {
+        flex-direction: column;
+        width: 96vw;
+        padding: 8px;
+    }
+    .card-img {
+        margin: 12px auto 0 auto;
+    }
+}
